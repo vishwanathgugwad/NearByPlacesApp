@@ -294,7 +294,7 @@ class MapsActivity : AppCompatActivity() , OnMapReadyCallback {
         googlePlaceUrl.append("?keyword=cruise&location=$currentLat,$currentLong")
         googlePlaceUrl.append("&radius=10000")
         googlePlaceUrl.append("&types=$typePlaces")
-        googlePlaceUrl.append("&key=AIzaSyC1DABIWxk9PNoOTZSUIVTtHwypCDESx3M")
+        googlePlaceUrl.append("&key=ADD_YOUR_KEY_HERE")
 
         Log.d("URL_DEBUG" , googlePlaceUrl.toString())
         return googlePlaceUrl.toString()
